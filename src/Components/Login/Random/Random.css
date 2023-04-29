@@ -1,0 +1,96 @@
+.random_div > label {
+  display: block;
+  margin-top: 12%;
+  margin-bottom: 20px;
+  margin-left: 18%;
+  border: 1px solid skyblue;
+  font-size: 13px;
+  width: 150%;
+  background-color: rgb(49, 182, 235);
+}
+
+.random_div > label > input {
+  border: none;
+  border-right: 1px solid skyblue;
+  outline: none;
+  padding: 9px;
+  font-size: 13px;
+  width: 65%;
+  font-weight: bold;
+}
+
+.alpha_Num {
+  display: inline-block;
+  padding: 6px 0px 0px 25px;
+  font-weight: 900;
+  letter-spacing:3px;
+  width: 68px;
+  color: rgb(81, 81, 87);
+  transform: rotate(-3deg);
+  z-index: 99;
+  text-decoration-line: line-through;
+  text-decoration-color: rgb(99, 11, 11);
+  font-size: 15px;
+}
+
+.captcha {
+  position: absolute;
+  right: -78%;
+  bottom: 46px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.captcha > .Icon {
+  transform: rotate(0deg);
+  transition: all 1.2s;
+}
+
+.captcha > .Icon:active {
+  transform: rotate(150deg);
+}
+
+@media (max-width: 670px) {
+  .random_div > label {
+    margin-bottom: 0px;
+  }
+
+  .captcha {
+    position: relative;
+    right: -170%;
+    bottom: 44px;
+  }
+}
+
+@media (max-width: 540px) {
+  .random_div > label {
+    margin-left: 5%;
+    margin-top: 14%;
+    width: 135%;
+  }
+
+  .captcha {
+    position: relative;
+    right: -140%;
+    bottom: 42px;
+  }
+}
+
+@media (max-width: 440px) {
+  .random_div > label {
+    margin-left:2%;
+    margin-top: 14%;
+    width: 103%;
+  }
+
+  .captcha {
+    position: relative;
+    right: -104%;
+    bottom: 42px;
+  }
+
+  .alpha_Num {
+    padding: 6px 0px 0px 10px;
+    font-size: 12px;
+  }  
+}

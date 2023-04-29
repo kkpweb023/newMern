@@ -1,0 +1,80 @@
+.ForgotPass{
+
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top:15%;
+    left:25%;
+    display: block;
+    
+}
+
+.ForgotPass > h1{
+    margin-bottom: 20px;
+}  
+
+.ForgotPass > h5{
+    color: gray;
+} 
+
+.ForgotPass > input{
+
+    display: block;
+    margin-top:10%;
+    margin-bottom: 20px;
+    margin-left:10%;
+    outline: none;
+    border: 1px solid skyblue;
+    padding:8px;
+    font-size: 13px;
+    width: 80%;
+}
+
+.ForgotPass > input:focus{
+    border: 2px solid rgb(19, 128, 172);
+}
+
+.for_btn{
+
+    background-color: skyblue;
+    color: black;
+    padding:8px 25%;
+    cursor: pointer;
+    border: 1px solid black;
+    outline: none;
+    margin-left:10%;
+    margin-top: 30px;
+    width: 80%;
+}
+
+.for_btn:hover{
+
+    background-color: rgb(229, 232, 233);
+    color: rgb(9, 108, 138);
+    border: 2px solid skyblue;
+}
+
+
+
+
+@media(max-width:620px) {
+
+
+
+    .ForgotPass{
+        
+        left:10%;
+        display: block;
+        
+    }
+
+    .ForgotPass > input{
+
+        margin-top:16%;
+        margin-bottom: 20px;
+        margin-left:10%;
+        padding:8px;
+        font-size: 13px;
+        width: 80%;
+    }
+      
+}

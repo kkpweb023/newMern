@@ -1,0 +1,95 @@
+.updateProduct_div {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  position: relative;
+  left: 26%;
+  top: 40px;
+}
+
+.updateProduct_div > input {
+  margin-top: 20px;
+  margin-left: 5%;
+  outline: none;
+  border: 1px solid skyblue;
+  padding: 7px;
+  font-weight: bold;
+  width: 90%;
+}
+
+.updateProduct_div > input:focus {
+  border: 2px solid rgb(19, 128, 172);
+}
+
+.updateProduct_div > button {
+  margin-top: 40px;
+  margin-left: 5%;
+  outline: none;
+  background-color: skyblue;
+  color: black;
+  padding: 10px 2%;
+  cursor: pointer;
+  border: 1px solid black;
+  width: 35%;
+  font-weight: bold;
+}
+
+.updateProduct_div > button:hover {
+  background-color: rgb(229, 232, 233);
+  color: rgb(9, 108, 138);
+  border: 2px solid rgb(63, 164, 204);
+}
+
+@media (max-width: 1120px) {
+  .updateProduct_div {
+    width: 35%;
+    position: relative;
+    left: 27%;
+    top: 40px;
+  }
+
+  .updateProduct_div > input {
+    width: 110%;
+  }
+
+  .updateProduct_div > button {
+    width: 55%;
+  }
+}
+
+@media (max-width: 700px) {
+  .updateProduct_div {
+    width: 40%;
+    position: relative;
+    left: 12%;
+    top: 40px;
+  }
+
+  .updateProduct_div > :first-child {
+    width: 400px;
+  }
+
+  .updateProduct_div > input {
+    width: 180%;
+  }
+
+  .updateProduct_div > button {
+    width: 72%;
+  }
+}
+
+
+
+
+
+@media (max-width: 470px) {
+  
+  .updateProduct_div > :first-child {
+    width: 200px;
+  }
+
+  .updateProduct_div > button {
+    width:100%;
+  }
+}

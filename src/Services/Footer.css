@@ -1,0 +1,25 @@
+.footer_div{
+    width: 100%;
+    margin-top:105vh;
+    margin-bottom: -8px;   
+}
+
+.footer_div >h2{
+    background-color: rgb(128, 212, 240); 
+    color: rgb(90, 43, 9);
+    text-align: center; 
+    padding:8px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+@media (max-width:540px){
+
+    .footer_div{
+        margin-top:110vh;
+        margin-bottom: -8px;
+        
+    }
+}
