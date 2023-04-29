@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/mern/static/css/main.20b9adc6.css",
+    "main.js": "/mern/static/js/main.1de4a883.js",
+    "static/media/Logo.png": "/mern/static/media/Logo.a025ee79307241571cfe.png",
+    "index.html": "/mern/index.html",
+    "main.20b9adc6.css.map": "/mern/static/css/main.20b9adc6.css.map",
+    "main.1de4a883.js.map": "/mern/static/js/main.1de4a883.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20b9adc6.css",
+    "static/js/main.1de4a883.js"
+  ]
+}
