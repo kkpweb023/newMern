@@ -21,7 +21,7 @@ const App = () => {
     return (
         <div style={{ position: "relative" }}>
             <NavBar />
-            <Routes basename="/mern">
+            <Routes basename="/newMern">
                 <Route element={<PrivateComp />}>
                     <Route path='/' element={<ProductList />} />
                     <Route path='/add' element={<AddProduct />} />
