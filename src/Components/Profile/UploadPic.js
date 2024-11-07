@@ -4,7 +4,7 @@ import axios from 'axios';
 import './UploadPic.css';
 import removePic from '../../Images/picNOT.png';
 
-let link = `https://cyan-encouraging-chiton.cyclic.app` /*&& `http://localhost:4000`*/;
+let link = /*`https://cyan-encouraging-chiton.cyclic.app` &&*/ `http://localhost:4000`;
 
 const Pic = () => {
 

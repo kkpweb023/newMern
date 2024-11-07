@@ -3,7 +3,7 @@ import './ResetPass.css';
 import { useNavigate, useParams } from 'react-router-dom';
 import axios from 'axios';
 
-let link = `https://cyan-encouraging-chiton.cyclic.app/forgotPass` /*|| `http://localhost:4000/forgotPass`*/;
+let link = /*`https://cyan-encouraging-chiton.cyclic.app/forgotPass` ||*/ `http://localhost:4000/forgotPass`;
 
 const ResetPass = () => {
 

@@ -7,7 +7,7 @@ import DelConfom from './DelConfom';
 //import Pic from './UploadPic';
 
 
-let link =  `https://cyan-encouraging-chiton.cyclic.app`/*|| `http://localhost:4000`*/;
+let link = /* `https://cyan-encouraging-chiton.cyclic.app`||*/ `http://localhost:4000`;
 
 const Profile = () => {
 

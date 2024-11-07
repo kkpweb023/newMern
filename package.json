@@ -3,7 +3,7 @@
   "homepage": "https://kkpweb023.github.io/newMern",
   "version": "0.1.0",
   "private": "true",
-  "proxy":"https://cyan-encouraging-chiton.cyclic.app",
+  "proxy":"https://database-production-ba58.up.railway.app/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
