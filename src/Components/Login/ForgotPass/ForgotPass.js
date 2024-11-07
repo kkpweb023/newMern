@@ -3,7 +3,7 @@ import './ForgotPass.css';
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios';
 
-let link = `https://database-production-ba58.up.railway.app/` /*|| `http://localhost:4000/getID`*/;
+let link = `https://database-production-ba58.up.railway.app/getID` /*|| `http://localhost:4000/getID`*/;
 
 
 const ForgotPass = () => {

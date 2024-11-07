@@ -8,7 +8,7 @@ import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
 import PersonIcon from '@mui/icons-material/Person';
 
-let link = 'https://database-production-ba58.up.railway.app/' /*|| 'http://localhost:4000/login'*/;
+let link = 'https://database-production-ba58.up.railway.app/login' /*|| 'http://localhost:4000/login'*/;
 
 
 const Login = () => {
