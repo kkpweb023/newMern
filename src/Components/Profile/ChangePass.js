@@ -3,7 +3,7 @@ import './ChangePass.css';
 import axios from 'axios';
 import {useNavigate} from 'react-router-dom';
 
-let link = /*`https://cyan-encouraging-chiton.cyclic.app/changePass` ||*/ `http://localhost:4000/changePass`;
+let link = `https://database-production-ba58.up.railway.app/` /*|| `http://localhost:4000/changePass`*/;
 
 const ChangePass = () => {
 

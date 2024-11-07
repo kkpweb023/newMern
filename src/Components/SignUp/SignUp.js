@@ -6,7 +6,7 @@ import RegNo from './RegNo';
 import Backdrop from '@mui/material/Backdrop';
 import CircularProgress from '@mui/material/CircularProgress';
 
-let link ='https://cyan-encouraging-chiton.cyclic.app/register' /*|| 'http://localhost:4000/register'*/;
+let link ='https://database-production-ba58.up.railway.app/' /*|| 'http://localhost:4000/register'*/;
 
 const SignUp = () => {
 
