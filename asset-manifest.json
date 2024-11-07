@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/newMern/static/css/main.20b9adc6.css",
-    "main.js": "/newMern/static/js/main.8db53042.js",
+    "main.js": "/newMern/static/js/main.1d6715e3.js",
     "static/media/Logo.png": "/newMern/static/media/Logo.a025ee79307241571cfe.png",
     "index.html": "/newMern/index.html",
     "main.20b9adc6.css.map": "/newMern/static/css/main.20b9adc6.css.map",
-    "main.8db53042.js.map": "/newMern/static/js/main.8db53042.js.map"
+    "main.1d6715e3.js.map": "/newMern/static/js/main.1d6715e3.js.map"
   },
   "entrypoints": [
     "static/css/main.20b9adc6.css",
-    "static/js/main.8db53042.js"
+    "static/js/main.1d6715e3.js"
   ]
 }
